@@ -1,0 +1,15 @@
+# Normalize line endings so the repo round-trips between macOS and Windows
+* text=auto eol=lf
+
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.jpg binary
+*.pt binary
+*.pth binary

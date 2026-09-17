@@ -1,0 +1,28 @@
+# Virtual environment (recreate per machine, never commit)
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model checkpoints / large artifacts
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
